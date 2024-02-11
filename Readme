@@ -1,9 +1,35 @@
----- Steps to Execute the Code ----
+# One - Place News Aggregator
 
-1. Install Libraries:- use the command npm install to install the necessary Libraries
+## Description
+One - Place aggregates the latest news from various news APIs and displays them on a dashboard. It aims to solve the problem of news consistency, allowing users to view the latest news based on content filtering from different regions and countries in various languages&#8203;``【oaicite:8】``&#8203;.
 
-2. Start the Back-End:- navigate to the Back-End folder and type the command npm run start
+## Architecture
+The project architecture comprises a Front-End, Back-End, and a MongoDB Database for data storage and retrieval. The Front-End uses Vue.js, creating a dynamic user experience. Users can filter news articles by category, country, and the number of articles to be displayed. A news archival feature allows searching news articles based on keywords. The Back-End uses GET and POST methods for data interaction, interfacing with NewsX and Gnews API. It also features user registration and login functionalities&#8203;``【oaicite:7】``&#8203;. The storage solution uses MongoDB Atlas, an open-source cloud storage, particularly useful for AWS deployment&#8203;``【oaicite:6】``&#8203;.
 
-3. Start the Front-End:- navigate to the Front-End folder and type the command npm run serve
-this will, start the server and you will be prompted to open a browser.
+### Implementation
+- **Backend**: Implemented using Rest APIs with multiple GET/POST methods to interact with the frontend and external data sources. It interfaces with NewsX and GNEWS APIs&#8203;``【oaicite:5】``&#8203;.
+- **Frontend**: Provides dynamic functionality for filtering and searching news articles, user registration, and login.
+- **APIs**: The project interfaces with external APIs (NewsX and GNEWS) and has various endpoints for user registration, login, and news retrieval&#8203;``【oaicite:4】``&#8203;.
+
+## AWS Deployment
+The project is successfully deployed on the AWS cloud interface using Amazon Elastic Container Service (EC2)&#8203;``【oaicite:3】``&#8203;.
+
+## Member Contribution
+- Akash Capirala: Front-End Design
+- Zoheb Shaikh: Back-End Design
+- Rohan Puthethu Joby: Back-End Design and AWS Deployment&#8203;``【oaicite:2】``&#8203;
+
+## Conclusion
+We created a fully functional website with an active back-end, a user-friendly front-end interface, and deployed it to AWS. The project aggregates news from Gnews and Newsx APIs, offering content filtering according to user preferences&#8203;``【oaicite:1】``&#8203;.
+
+## References
+- [Vue.js Guide](https://vuejs.org/guide/introduction.html)
+- [Node.js](https://nodejs.org/en)
+- [MongoDB Atlas](https://www.mongodb.com/atlas/database)
+- [AWS CodeDeploy](https://aws.amazon.com/codedeploy)&#8203;``【oaicite:0】``&#8203;
+
+## Steps to Execute the Code
+1. **Install Libraries**: Use the command `npm install` to install the necessary libraries.
+2. **Start the Back-End**: Navigate to the Back-End folder and type the command `npm run start`.
+3. **Start the Front-End**: Navigate to the Front-End folder and type the command `npm run serve`. This will start the server, and you will be prompted to open a browser.
 
