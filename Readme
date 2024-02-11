@@ -1,0 +1,9 @@
+---- Steps to Execute the Code ----
+
+1. Install Libraries:- use the command npm install to install the necessary Libraries
+
+2. Start the Back-End:- navigate to the Back-End folder and type the command npm run start
+
+3. Start the Front-End:- navigate to the Front-End folder and type the command npm run serve
+this will, start the server and you will be prompted to open a browser.
+
